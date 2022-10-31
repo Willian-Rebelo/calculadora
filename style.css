@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fraunces', serif;
 }
 .conteudo{
     background-image: linear-gradient(48deg, rgb(0, 255, 242), rgb(34, 10, 143)    );
@@ -34,15 +35,7 @@ table td {
     padding: 10px;
     background-color: #0c1a21;
     color: #dfdfdf;
-}
-
-.result{
-    height: 100px;
-    color: #dfdfdf;
-    text-align: right;
-    font-size: 35px;
-    word-wrap: break-word;
-    border-bottom: 1px solid #25968a;
+    transition: all 500ms ease-in-out;
 }
 
 .btn:hover{
@@ -52,6 +45,21 @@ table td {
 .ac {
     background-color: rgba(23, 151, 113, 0.897);
 }
-.ac:hover{
-    background-color: rgba(16, 122, 124, 0.678);
+.ac:hover {
+    background-color: rgba(11, 104, 81, 0.849);
+}
+.igual {
+    background-color: rgba(23, 151, 113, 0.897);
+}
+.igual:hover {
+    background-color: rgba(11, 104, 81, 0.849);
+}
+
+.result{
+    height: 100px;
+    color: #dfdfdf;
+    text-align: right;
+    font-size: 35px;
+    word-wrap: break-word;  
+    border-bottom: 1px solid #25968a;
 }

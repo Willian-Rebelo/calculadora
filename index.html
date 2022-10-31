@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/fddcb392e3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
     <title>Calculadora</title>
    
 </head>
@@ -14,14 +16,14 @@
     <div class="conteudo"> 
 
     <div class="calculadora">
-        <p class="result" id="resultado"> </p>
+        <p class="result" id="resultado"></p>
 
         <table>
             <tr>
                 <td><button class="btn ac" style="width: 106px;" 
                     onclick= "clean()" >AC </button> </td>
 
-                <td><button class="btn dele" onclick= "delet() ">
+                <td><button class="btn dele" onclick= "back() ">
                      <i class="fa-solid fa-delete-left"></i> </button></td>
 
                 <td><button class="btn div" onclick= "insert('/')">
@@ -50,7 +52,7 @@
                 <td><button class="btn" onclick= "insert('0')">0</button></td>
                 <td><button class="btn" onclick= "insert('.')">.</button></td>
                 <td><button class="btn igual" style="width: 106px;"
-                     onclick= "confirma()"> <i class="fa-solid fa-equals"></i></button></td>
+                     onclick= "calcular()"> <i class="fa-solid fa-equals"></i></button></td>
             </tr>
           
         </table>
